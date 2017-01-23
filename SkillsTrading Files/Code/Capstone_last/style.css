@@ -1,0 +1,26 @@
+
+#login_section
+{
+	float:right;
+	/*background-color:#F7882F;*/
+	
+}
+#tagline
+{
+	float:left;
+	
+}
+.site_name
+{
+	font-size:50px;
+	font-weight:350;
+}
+.tag_line
+{
+	font-size:18px;
+}
+#top
+{
+	background-color:#FC4A1A;
+}
+

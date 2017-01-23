@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Game of 15</title>
+		<script src="../scripts/scramble.js"></script>
+		<link rel="stylesheet" href="../styles/main.css"/>
+	</head>
+	<body>
+		<div id ="header">
+			<header id="headerstyle">
+				<h1>The Game of 15!</h1>
+				<h2> A math puzzle!</h2>
+			</header>
+		</div>
+		<div id="game">
+			<span id="moves">&nbsp;</span>
+			<span id="time">&nbsp;</span>
+			<table>
+				<tr>
+					<td id="cell1">&nbsp;</td>
+					<td id="cell2">&nbsp;</td>
+					<td id="cell3">&nbsp;</td>
+					<td id="cell4">&nbsp;</td>
+				</tr>
+				<tr>
+					<td id="cell5">&nbsp;</td>
+					<td id="cell6">&nbsp;</td>
+					<td id="cell7">&nbsp;</td>
+					<td id="cell8">&nbsp;</td>
+				</tr>
+				<tr>
+					<td id="cell9">&nbsp;</td>
+					<td id="cell10">&nbsp;</td>
+					<td id="cell11">&nbsp;</td>
+					<td id="cell12">&nbsp;</td>
+				</tr>
+				<tr>
+					<td id="cell13">&nbsp;</td>
+					<td id="cell14">&nbsp;</td>
+					<td id="cell15">&nbsp;</td>
+					<td id="cell16">&nbsp;</td>
+				</tr>
+			</table>
+			<button id="shuffle">New Game</button>
+			<button id="simplegame">Simple Game</button>
+		</div>
+		<div id="endgame">
+			<p>
+				Thanks for playing the game! Hope you had fun! Refresh page to play again!
+			</p>
+		</div>
+		<div id="rules">
+			<header>Rules:</header>
+			This is a classic '15-puzzle'!
+			Try to put the tiles back in order.<br>
+ 			To move a tile you simply click on it. <br>
+ 			The only tiles you can move are those adjacent to the empty tile.<br>
+ 			If you are a newbie, click on the Simple Game to try an easy one.
+		</div>
+			<img src="../images/number.png" alt ="puzzle"/>
+	</body>
+</html>
